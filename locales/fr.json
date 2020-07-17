@@ -1,0 +1,103 @@
+{
+    ".navigations": {
+      "home": "Accueil",
+      "services": "Services",
+      "details": "Details",
+      "utilisation": "Utilisation",
+      "telechargement": "Télécharger",
+      "Enregistrement": "Enregistrement",
+      "contact": "Contact"
+    },
+    ".b11": {
+      "slogon": "C&#39;est quoi SOSKhedma",
+      "title1": "<img src='assets/img/sos/sos.png' style='display: inline-block!important;' class='soskhedma-logo' > est une application mobile créer pour faciliter l'accès aux services de livraison et de transport et à tous qu'on a besoin dans notre vie quotidienne et nos événements.",
+      "title2": "  <img src='assets/img/sos/sos.png' style='display: inline-block!important;' class='soskhedma-logo' > met en relation les demandeurs de services avec les fournisseurs de services.",
+      "title3": "L'application <img src=\"assets/img/sos/sos.png\" style=\"display: inline-block!important;\"  class='soskhedma-logo'> permet aux propriétaires de magasins, restaurants et cafés, ainsi qu'à tous ceux qui ont un produit, de faire connaître publiquement leurs activités et leurs produits sur la plateforme."
+    },
+    ".service": {
+      "title": "Nos Services",
+      "item1": "Service de livraison et de transport",
+      "text1": "Que ce soit personne physique ou une entreprise et que vous avez besoin d'envoyer quoi que ce soit d'un endroit à un autre à l'intérieur ou à l'extérieur de votre ville, <img src=\"assets/img/sos/sos.png\" style=\"width: 50px!important;display: inline-block!important;margin-top: 8px!important;\"> vous fournit une plate-forme complète de livraison et de transport pour vous connecter directement avec les fournisseurs de services le plus proche de vous et selon vos besoins.",
+      "text1_1": "<img src=\"assets/img/sos/sos.png\" style=\"width: 50px!important;display: inline-block!important;margin-top: 8px!important;\"> offre aux sociétés de transporteurs, aux transports privés et à tous ceux qui souhaitent travailler dans le service de livraison et de transport la possibilité de s'inscrire sur la plate-forme.",
+      "item2": "Services quotidiens",
+      "text2": "<img src=\"assets/img/sos/sos.png\" style=\"width: 50px!important;display: inline-block!important;margin-top: 8px!important;\"> contient de nombreuses spécialisations indispensables dans notre vie quotidienne, comme l'entretien des maisons, des jardins et des voitures.",
+      "text2_2": "Quel que soit votre domaine de travail, vous pouvez vous inscrire à <img src=\"assets/img/sos/sos.png\" style=\"width: 50px!important;display: inline-block!important;margin-top: 8px!important;\"> pour facilite la communication avec les demandeurs de service.",
+      "item3": "Boutiques et produits de notre choix",
+      "text3": " Afin de faciliter le processus de recherche et d'identification, vous pouvez trouver dans l'application <img src=\"assets/img/sos/sos.png\" style=\"width: 50px!important;display: inline-block!important;margin-top: 8px!important;\"> les magasins, cafés et pharmacies…ext près de chez vous.",
+      "item4": "Propriétaires des magasins et produits spéciaux ",
+      "text4": "Comme moyen de publicité, <img src=\"assets/img/sos/sos.png\" style=\"width: 50px!important;display: inline-block!important;margin-top: 8px!important;\"> met une opportunité pour afficher vos magasins et vous produits à traver l'inscription et la presentation sur la plateforme."
+    },
+    ".about": {
+      "title": "À propos de l'Application",
+      "supertitle1": "Nos Services Fournis À L'utilisateur Ordinaire Ou On Peut Dire Le Demandeur De Service",
+      "item1": "Explication pour l'utilisateur normal ou à ce qu'il exprime comme \"le demandeur de service\" ",
+      "text1": "Pour le service de livraison et transport (on va prendre un exemple : Vous voulez acheter n'importe quoi et vous n'avez pas le temps ou le moyen de transport, <img src='assets/img/sos/sos.png' style='width: 50px!important;display: inline-block!important;margin-top: -5px!important;' class='soskhedma-logo' > vous permet d'envoyer une demande avec tous les détails, le lieu. En ce moment <img src=\"assets/img/sos/sos.png\" style=\"width: 50px!important;display: inline-block!important;margin-top: -5px!important;\" class='soskhedma-logo' > envoie votre demande aux fournisseurs de services concerner près de vous. Les fournisseurs de services disponibles vous répondent à titre d'approbation préliminaire pour fournir le service et mentionner le coût. En ce moment, vous pouvez accepter ou refuser l'offre selon ce qui vous convient mieux en termes de prix et d'évaluations des prestataires de services. Après acceptation, <img src='assets/img/sos/sos.png' style='width: 50px!important;display: inline-block!important;margin-top: -5px!important;' class='soskhedma-logo' > vous offre la possibilité de communiquer avec le fournisseur de services par des messages priver et également de suivre votre demande directement.). <br><div class='art'>Concernant les services quotidiens (Tels que la plomberie, la menuiserie, la peinture, le jardinage et plusieurs autres spécialités). Il suffit de cliquer sur le service requis, d'écrire les détails de votre demande et envoyer. Ensuite, attendre les réponses des prestataires de services. Choisissez le plus approprié, communiquez et finaliser l'accord avec lui dans une conversation directe à travers l'application pour assurer la qualité et les droits des deux parties.</div>",
+      "item2": "Explication pour les prestataires de services",
+      "text2": "L'application <img src='assets/img/sos/sos.png' style='width: 50px!important;display: inline-block!important;margin-top: 8px!important;' class='soskhedma-logo' > offre aux entreprises et aux travailleurs indépendants la possibilité d'étendre leurs activités et leurs rendements financiers, cela avec sa système moderne de présentation et de communication avec les clients demandeurs de services. Une fois que le client (le demandeur) envoi sa demande, <img src='assets/img/sos/sos.png' style='width: 50px!important;display: inline-block!important;margin-top: 8px!important;' class='soskhedma-logo' > envoie une alerte qui inclut le sujet de la demande aux parties concernées des prestataires de services, selon son domaine de travail, sa localisation et sa proximité avec le client. Le prestataire de services peut répondre aux demandes et détermine le prix du service et le temps de disponibilité pour effectuer la mission. Avec tout liberté et sans aucunes conditions ni restrictions. Après l'acceptation du client (le demandeur), <img src='assets/img/sos/sos.png' style='width: 50px!important;display: inline-block!important;margin-top: 8px!important;' class='soskhedma-logo' > vous permet de communiquer avec lui à travers la messagerie disponible pour finaliser l'accord et de garantir les droits des deux parties.",
+      "text22": "",
+      "item3": "Présentation pour les propriétaires des projets privées",
+      "text3": "Pour les entrepreneurs privés ou les familles productives, l'application <img src='assets/img/sos/sos.png' style='width: 50px!important;display: inline-block!important;margin-top: 8px!important;' class='soskhedma-logo' > leur donne  la possibilité de publicité pour leurs magasins et produits à tous les utilisateurs de l'application. Cela facilitera le processus de communication directe avec eux et augmentera en conséquence les quantités des ventes et des revenus en général.",
+      "item4": "L'application offrira de nombreuses opportunités d'emploi dans de nombreux domaines et contribuera ainsi à réduire le taux de chômage.",
+      "text4": "<img src='assets/img/sos/sos.png' style='width: 80px!important;display: inline-block!important;margin-top: 8px!important;' class='soskhedma-logo' >  n'est pas seulement une application mais une plateforme pour partager des expériences."
+    },
+    ".using": {
+      "title": "Mode d'utilisation",
+      "text": "Après l'inscription et l'activation du compte, vous pouvez commencer à utiliser l'application en suivant ces étapes :",
+      "item1": "Envoyez votre demande gratuitement",
+      "text1": "Commandez ce que vous voulez, réparation du meuble, du lumières, l'électroménager, envoie d'un colis, etc...",
+      "item2": "Recevoir des offres",
+      "text2": "Du professionnel, du particulier ou d'entreprises..",
+      "item3": "Choisissez celui qui vous convient ",
+      "text3": "Consultez les avis précédents, puis choisissez le meilleur.",
+      "item4": "Partage d’expériences",
+      "text4": "Une fois la mission terminée, évaluez le fournisseur de services et informez les autres utilisateurs de sa qualité de travail.",
+      "item5": "Finaliser l'accord",
+      "text5": "Avec le système de chat suggérés par SOSKhedma finaliser l'accord avec le prestataire de service sélectionner."
+    },
+    ".downloading": {
+      "title": "Télécharger l’application",
+      "title2": "Enregistrement",
+      "text": "Télécharger Notre application  sur Google Play , App Store ou App Gallery ",
+      "inscrit": "<img src=\"assets/img/sos/sos.png\" width=\"90\" > recueille actuellement les demandes d'inscription et toutes les informations nécessaires des fournisseurs de services.\nInscrivez-vous en cliquant sur s'inscrire dans la page Facebook ou à travers le lien ci-dessous.\n ",
+      "ins": "inscription"
+    },
+    ".supports": {
+      "title": "Contact",
+      "title2": "Enregistrement",
+      "subtitle": "<img src=\"assets/img/sos/sos.png\" width=\"100\" >   ",
+      "subtext": "La première plate-forme électronique pour la livraison et tous les services quotidiens, disponible partout en Tunisie",
+      "text": "Contactez-Nous Par Votre Numéro De Téléphone Ou Adresse E-Mail",
+      "inscrit": "<img src=\"assets/img/sos/sos.png\" width=\"90\" > recueille actuellement les demandes d'inscription et toutes les informations nécessaires des fournisseurs de services.\nInscrivez-vous en cliquant sur s'inscrire dans la page Facebook ou à travers le lien ci-dessous.\n "
+    },
+    ".request": {
+      "title": "Request & forget the rest"
+    },
+    ".cont": {
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Numéro de téléphone",
+      "sub": "Votre sujet",
+      "message": "Message",
+      "btn": "envoyer le message",
+      "error1": "Veuillez saisir votre nom",
+      "error2": "Veuillez saisir votre email",
+      "error3": "Veuillez saisir votre numéro",
+      "error4": "Veuillez saisir votre sujet",
+      "error5": "Veuillez saisir votre message",
+      "error6": "Avez-vous rempli correctement le formulaire?"
+    },
+    ".type": {
+      "t1": "Utilisateur ordinaire",
+      "t2": "Prestataires de service"
+    },
+    ".footermenu": {
+      "menu": "Menu",
+      "download": "Téléchargement"
+    },
+    ".rej": {
+      "t1": "Rejoignez-nous comme prestataires de services",
+      "t2": "joindre",
+      "t3": "Entrez votre numéro de téléphone",
+      "t4": "Veuillez saisir votre numéro correctement."
+    }
+  }
