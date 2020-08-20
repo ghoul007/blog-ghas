@@ -509,6 +509,12 @@ Banner Area CSS
   text-align: right;
 }
 
+@media screen and (max-width: 600px) {
+.banner-image{
+  margin-top: 0px!important;
+}
+}
+
 .main-banner .banner-form {
   border-radius: 5px;
   background-color: #ffffff;
