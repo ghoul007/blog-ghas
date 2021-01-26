@@ -1,6 +1,22 @@
 jQuery(function ($) {
     'use strict';
-   
+        console.log("main");
+        if(localStorage.getItem("user") != null ) {
+            $('#signup').hide();
+            $('#login').hide();
+            $('#logoff').show();
+            $('#signup-part').hide();
+        } else {
+            $('#signup').show();
+            $('#login').show();
+            $('#logoff').hide();
+            $('#signup-part').show();
+
+        }
+        $('#logoff').on('click', function (e) {
+            localStorage.removeItem("user");
+            location.href="index.html";
+        });
 		// Header Sticky
 		$(window).on('scroll',function() {
             if ($(this).scrollTop() > 120){  
@@ -350,8 +366,10 @@ jQuery(function ($) {
             $('.go-top').on('click', function() {
                 $("html, body").animate({ scrollTop: "0" },  500);
             });
-		});
-
+        });
+        
+ 
+   
 }(jQuery));
 
 

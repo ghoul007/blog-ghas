@@ -3,6 +3,7 @@
 
 
 <!-- Mirrored from www.soskhedma.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Jul 2020 22:04:33 GMT -->
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -31,13 +32,14 @@
     <meta http-equiv="expires" content="0" />
     <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
     <meta http-equiv="pragma" content="no-cache" />
-    
+
     <title>SOSKhedma</title>
     <link rel="icon" type="image/png" href="assets/img/sos/sos.png">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     <style>
         /* -------------- CSS --------------- */
+        
         #lang-switch img {
             width: 32px;
             height: 32px;
@@ -49,39 +51,35 @@
             -ms-user-select: none;
             user-select: none;
         }
-
+        
         #lang-switch img:hover {
             cursor: pointer;
             opacity: 1;
         }
-
+        
         .fr_lang,
         .en_lang {
             display: none;
             transition: display .5s;
         }
-
         /* Language */
+        
         .active-lang {
             display: flex !important;
             transition: display .5s;
         }
-
+        
         .active-flag {
             transition: all .5s;
             opacity: 1 !important;
         }
-
-
     </style>
     <style>
-
-
         body.ar {
             direction: rtl;
             text-align: right
         }
-
+        
         body.fr {
             direction: ltr;
             text-align: left
@@ -91,124 +89,147 @@
 
 <body data-spy="scroll" data-offset="120">
 
-<!-- Start Preloader Area -->
-<div class="preloader">
+    <!-- Start Preloader Area -->
     <div class="preloader">
-        <span></span>
-        <span></span>
-    </div>
-</div>
-<!-- End Preloader Area -->
-
-<!-- Start Navbar Area -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light ">
-    <div class="container-fluid">
-        <div class="logo">
-            <a href="index.html">
-                <h3><img src="assets/img/app_logo2.svg"  ></h3>
-            </a>
+        <div class="preloader">
+            <span></span>
+            <span></span>
         </div>
+    </div>
+    <!-- End Preloader Area -->
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Start Navbar Area -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="index.html">
+                    <h3><img src="assets/img/app_logo2.svg"></h3>
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item navigations">
-                    <a href="#home" class="nav-link  droid-arabic-kufi" key="home">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item navigations">
+                        <a href="#home" class="nav-link  droid-arabic-kufi" key="home">
                         Accueil
                     </a>
-                </li>
-                <li class="nav-item navigations">
-                    <a href="#about" class=" droid-arabic-kufi nav-link" key="details">
+                    </li>
+                    <li class="nav-item navigations">
+                        <a href="#about" class=" droid-arabic-kufi nav-link" key="details">
                         Détails
                     </a>
-                </li>
-           
+                    </li>
 
-          
 
-                <li class="nav-item navigations">
-                    <a href="#utilisation" class="nav-link  droid-arabic-kufi" key="utilisation">
+
+
+                    <li class="nav-item navigations">
+                        <a href="#utilisation" class="nav-link  droid-arabic-kufi" key="utilisation">
                         Utilisation
                     </a>
-                </li>
+                    </li>
 
-                <li class="nav-item navigations">
-                    <a href="#telechargement" class="nav-link  droid-arabic-kufi" key="telechargement">
+                    <li class="nav-item navigations">
+                        <a href="#telechargement" class="nav-link  droid-arabic-kufi" key="telechargement">
                         Télécharger
                     </a>
-                </li>
+                    </li>
 
 
+                    <li class="nav-item navigations">
+                        <a href="#signup-part" id="signup" class="nav-link  droid-arabic-kufi" key="signup-part">
+                        sign-up
+                    </a>
+                    </li>
 
-                <li class="nav-item navigations">
-                    <a href="#contact" class="nav-link  droid-arabic-kufi" key="contact">
+
+                    <li class="nav-item navigations">
+                        <a href="#contact" class="nav-link  droid-arabic-kufi" key="contact">
                         Contact
                     </a>
-                </li>
-            </ul>
+                    </li>
 
-        <div class="others-option">
-                <div class="d-flex align-items-center">
-                    <div class="option-item">
-                        <img  onclick="setLanguage('fr');    $('.navbar-collapse').collapse('hide');
-                        " style="cursor: pointer!important;" width="30"
-                             src="images/france.svg">
+                    <li class="nav-item navigations">
+                        <a href="list.html" class="nav-link droid-arabic-kufi active" key="signup">
+                Liste
+              </a>
+                    </li>
+                    <li class="nav-item navigations">
+                        <a href="#" data-toggle="modal" id="login" data-target="#loginModal" class="nav-link  droid-arabic-kufi" key="login">
+                        login
+                    </a>
+                    </li>
 
-                        <img onclick="setLanguage('ar');    $('.navbar-collapse').collapse('hide');
-                        " style="cursor: pointer!important;" width="30"
-                             src="images/tunisia.svg">
+                   
+                    <li class="nav-item navigations">
+                        <a href="#" id="logoff" class="nav-link  droid-arabic-kufi" key="logoff">
+                        déconnexion
+                    </a>
+                    </li>
+                </ul>
+
+                <div class="others-option">
+                    <div class="d-flex align-items-center">
+                        <div class="option-item">
+                            <img onclick="setLanguage('fr');    $('.navbar-collapse').collapse('hide');
+                        " style="cursor: pointer!important;" width="30" src="images/france.svg">
+
+                            <img onclick="setLanguage('ar');    $('.navbar-collapse').collapse('hide');
+                        " style="cursor: pointer!important;" width="30" src="images/tunisia.svg">
+                        </div>
                     </div>
                 </div>
-            </div>  
+            </div>
         </div>
-    </div>
-</nav>
-<!-- End Navbar Area -->
+    </nav>
+    <!-- End Navbar Area -->
 
-<!-- Start Main Banner Area -->
-<div id="home" class="main-banner">
-    <div class="d-table">
-        <div class="d-table-cell">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="banner-content">
-                            <h1 class="request droid-arabic-kufi b11"><span key="slogon">Request & forget the rest</span>
-                            </h1>
-                            <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
-                                <ol class="carousel-indicators" id="slideol">
-                                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active" data-interval="5000">
-                                    <div class="slider__contents b11  droid-arabic-kufi">
-                                        <span key="title2">  <img src="assets/img/sos/sos.png"
+    <!-- Start Main Banner Area -->
+    <div id="home" class="main-banner">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="banner-content">
+                                <h1 class="request droid-arabic-kufi b11"><span key="slogon">Request & forget the rest</span>
+                                </h1>
+                                <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+                                    <ol class="carousel-indicators" id="slideol">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="5000">
+                                            <div class="slider__contents b11  droid-arabic-kufi">
+                                                <span key="title2">  <img src="assets/img/sos/sos.png"
                                                                   style="width: 120px!important;display: inline-block!important;margin-top: -5px!important;">  met en relation les demandeurs de services avec les fournisseurs de services.</span>
-                                    </div>      </div>
-                                  <div class="carousel-item"  data-interval="5000">
-                                    <div class="slider__contents b11  droid-arabic-kufi">
-                                        <span key="title3">L'application <img src="assets/img/sos/sos.png"
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-interval="5000">
+                                            <div class="slider__contents b11  droid-arabic-kufi">
+                                                <span key="title3">L'application <img src="assets/img/sos/sos.png"
                                             style="width: 120px!important;display: inline-block!important;margin-top: -5px!important;"> permet aux propriétaires de magasins, restaurants et cafés, ainsi qu'à tous ceux qui ont un produit, de faire connaître publiquement leurs activités et leurs produits sur la plateforme.</span>
-                            </div>      </div>
-                                  <div class="carousel-item"  data-interval="5000">
-                                    <div class="slider__contents b11  droid-arabic-kufi">
-                                        <span key="title1"><img src="assets/img/sos/sos.png"
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-interval="5000">
+                                            <div class="slider__contents b11  droid-arabic-kufi">
+                                                <span key="title1"><img src="assets/img/sos/sos.png"
                                             style="width: 120px!important;display: inline-block!important;margin-top: -5px!important;"> est une application mobile créer pour faciliter l'accès aux services de livraison et de transport et à tous qu'on a besoin dans notre vie quotidienne et nos événements.</span>
-                            </div>   
-                                   </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" role="button" onclick="next()">
+                                    </a>
+                                    <a class="carousel-control-next" role="button" onclick="prev()">
+                                    </a>
                                 </div>
-                                <a class="carousel-control-prev"  role="button" onclick="next()">
-                                </a>
-                                <a class="carousel-control-next" role="button" onclick="prev()" >
-                                </a>
-                              </div>
-                    <!--        <div class="slider">
+                                <!--        <div class="slider">
                                 <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"
                                        id="s1"/>
                                 <input type="radio" name="slider" title="slide2" class="slider__nav" id="s2"/>
@@ -229,7 +250,7 @@
 
                                 </div>
                             </div>-->
-                            <!--    <div class="banner-holder">
+                                <!--    <div class="banner-holder">
                                     <a href="#">
                                         <img src="assets/img/store/1.png" alt="image">
                                     </a>
@@ -237,164 +258,16 @@
                                         <img src="assets/img/store/2.png" alt="image">
                                     </a>
                                 </div>-->
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="banner-image" style="padding: 20px!important;">
+                                <img src="assets/img/sos/6.png" alt="image" class="middle" style="width: 80%;">
+                            </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-6">
-                        <div class="banner-image" style="padding: 20px!important;">
-                            <img src="assets/img/sos/6.png" alt="image" class="middle" style="width: 80%;">
-                        </div>
-                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="default-shape">
-        <div class="shape-1">
-            <img src="assets/img/shape/1.png" alt="image">
-        </div>
-
-        <div class="shape-2 rotateme">
-            <img src="assets/img/shape/2.png" alt="image">
-        </div>
-
-        <div class="shape-3">
-            <img src="assets/img/shape/3.svg" alt="image">
-        </div>
-
-        <div class="shape-4">
-            <img src="assets/img/shape/4.svg" alt="image">
-        </div>
-
-        <div class="shape-5">
-            <img src="assets/img/shape/5.png" alt="image">
-        </div>
-    </div>
-</div>
-
-  
-<!-- End Main Banner Area -->
-<!-- Start About Area -->
-<section id="about" class="about-area pb-100" style="margin-top: 30px!important;">
-    <div class="container">
-        <div class="section-title about explication droid-arabic-kufi">
-            <h2 key="title">Plus d'explication de l'application</h2>
-            <div class="bar"></div>
-
-        </div>
-
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="about-content section-title about droid-arabic-kufi">
-                    <h4 class="" key="item1">Explication Pour L'utilisateur Normal Ou À Ce Qu'il Exprime Comme "Le
-                        Demandeur De Service"</h4>
-                    <div class="bar"></div>
-                    <p></p>
-                    <p class="droid-arabic-kufi" key="text1">Pour le service de livraison et transport (on va prendre un
-                        exemple : Vous voulez acheter n'importe quoi et vous n'avez pas le temps ou le moyen de
-                        transport, <img src='assets/img/sos/sos.png'
-                                        style='width:50px!important;display: inline-block!important;margin-top: -5px!important;'
-                                        class='soskhedma-logo'> vous permet d'envoyer une demande avec tous les détails, le
-                        lieu. En ce moment <img src="assets/img/sos/sos.png"
-                                                style="width: 50px!important;display: inline-block!important;margin-top: -5px!important;"
-                                                class='soskhedma-logo'> envoie votre demande aux fournisseurs de services
-                        concerner près de vous. Les fournisseurs de services disponibles vous répondent à titre
-                        d'approbation préliminaire pour fournir le service et mentionner le coût. En ce moment, vous
-                        pouvez accepter l'offre ou refuser selon ce qui vous convient mieux en termes de prix et
-                        d'évaluations des prestataires de services. Après acceptation, <img src='assets/img/sos/sos.png'
-                                                                                            style='width: 50px!important;display: inline-block!important;margin-top: -5px!important;'
-                                                                                            class='soskhedma-logo'> vous
-                        offre la possibilité de communiquer avec le fournisseur de services par des messages priver et
-                        également de suivre votre demande directement.) Concernant les services quotidiens (Tels que la
-                        plomberie, la menuiserie, la peinture, le jardinage et plusieurs autres spécialités). Il suffit
-                        de cliquer sur le service requis, d'écrire les détails de votre demande et envoyer. Ensuite,
-                        attendre les réponses des prestataires de services. Choisissez le plus approprié, communiquez et
-                        finaliser l'accord avec lui dans une conversation directe à travers l'application pour assurer
-                        la qualité et les droits des deux parties.
-                        Concernant les services quotidiens (Tels que la plomberie, la menuiserie, la peinture, le
-                        jardinage et plusieurs autres spécialités). Il suffit de cliquer sur le service requis, d'écrire
-                        les détails de votre demande et envoyer. Ensuite, attendre les réponses des prestataires de
-                        services. Choisissez le plus approprié, communiquez et finaliser l'accord avec lui dans une
-                        conversation directe à travers l'application pour assurer la qualité et les droits des deux
-                        parties.
-
-
-                </div>
-            </div>
-
-            <div class="col-lg-6 my-element">
-                <div class="about-image ">
-                    <img src="assets/img/sos/4.png" alt="image">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="default-shape">
-        <div class="shape-1">
-            <img src="assets/img/shape/1.png" alt="image">
-        </div>
-
-        <div class="shape-2 rotateme">
-            <img src="assets/img/shape/2.png" alt="image">
-        </div>
-
-        <div class="shape-3">
-            <img src="assets/img/shape/3.svg" alt="image">
-        </div>
-
-        <div class="shape-4">
-            <img src="assets/img/shape/4.svg" alt="image">
-        </div>
-
-        <div class="shape-5">
-            <img src="assets/img/shape/5.png" alt="image">
-        </div>
-    </div>
-</section>
-<!-- End About Area -->
-<!-- Start About Area -->
-<section id="about1" class="about-area  overview-area">
-    <div class="container">
-        <div class="section-title about">
-
-
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="about-image">
-                        <img src="assets/img/sos/5.png" alt="image">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about-content section-title about droid-arabic-kufi">
-                        <h4 class=" droid-arabic-kufi" key="item2">Explication Pour Les Prestataires De Services</h4>
-                        <div class="bar"></div>
-                        <p></p>
-                        <p class="droid-arabic-kufi" key="text2">L'application <img src='assets/img/sos/sos.png'
-                                                                                    style='width: 60px!important;display: inline-block!important;margin-top: 8px!important;'
-                                                                                    class='soskhedma-logo'> offre aux
-                            entreprises et aux travailleurs indépendants la possibilité d'étendre leurs activités et
-                            leurs rendements financiers, cela avec sa système moderne de présentation et de
-                            communication avec les clients demandeurs de services. Une fois que le client (le demandeur)
-                            envoi sa demande, <img src='assets/img/sos/sos.png'
-                                                   style='width: 60px!important;display: inline-block!important;margin-top: 8px!important;'
-                                                   class='soskhedma-logo'>envoie une alerte qui inclut le sujet de la
-                            demande aux parties concernées des prestataires de services, selon son domaine de travail,
-                            sa localisation et sa proximité avec le client. Le prestataire de services peut répondre aux
-                            demandes et détermine le prix du service et le temp de disponibilité pour effectuer la
-                            mission. Avec tout liberté et sans aucunes conditions ni restrictions. Après l'acceptation
-                            du client (le demandeur), <img src='assets/img/sos/sos.png'
-                                                           style='width: 60px!important;display: inline-block!important;margin-top: 8px!important;'
-                                                           class='soskhedma-logo'>vous permet de communiquer avec lui à
-                            travers la messagerie disponible pour finaliser l'accord et de garantir les droits des deux
-                            parties. </p>
-
-
-                    </div>
-                </div>
-
-
             </div>
         </div>
 
@@ -420,80 +293,197 @@
             </div>
         </div>
     </div>
-</section>
- 
-<section id="about3" class="features-area    ptb-60">
 
 
-    <div class="default-shape">
-        <div class="shape-1">
-            <img src="assets/img/shape/1.png" alt="image">
-        </div>
+    <!-- End Main Banner Area -->
+    <!-- Start About Area -->
+    <section id="about" class="about-area pb-100" style="margin-top: 30px!important;">
+        <div class="container">
+            <div class="section-title about explication droid-arabic-kufi">
+                <h2 key="title">Plus d'explication de l'application</h2>
+                <div class="bar"></div>
 
-        <div class="shape-2 rotateme">
-            <img src="assets/img/shape/2.png" alt="image">
-        </div>
-
-        <div class="shape-3">
-            <img src="assets/img/shape/3.svg" alt="image">
-        </div>
-
-        <div class="shape-4">
-            <img src="assets/img/shape/4.svg" alt="image">
-        </div>
-
-        <div class="shape-5">
-            <img src="assets/img/shape/5.png" alt="image">
-        </div>
-    </div>
-    <div class="container" >
-        <div class=" about">
-
+            </div>
 
             <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="about-content  about droid-arabic-kufi">
-                        <h4 class="droid-arabic-kufi" key="item4">L'application Offrira De Nombreuses Opportunités
-                            D'emploi Dans De Nombreux Domaines Et Contribuera Ainsi À Réduire Le Taux De Chômage.</h5>
-                        <h5 class="droid-arabic-kufi" key="text4">
-                        </h4></p>
+                <div class="col-lg-6">
+                    <div class="about-content section-title about droid-arabic-kufi">
+                        <h4 class="" key="item1">Explication Pour L'utilisateur Normal Ou À Ce Qu'il Exprime Comme "Le Demandeur De Service"</h4>
+                        <div class="bar"></div>
+                        <p></p>
+                        <p class="droid-arabic-kufi" key="text1">Pour le service de livraison et transport (on va prendre un exemple : Vous voulez acheter n'importe quoi et vous n'avez pas le temps ou le moyen de transport, <img src='assets/img/sos/sos.png' style='width:50px!important;display: inline-block!important;margin-top: -5px!important;'
+                                class='soskhedma-logo'> vous permet d'envoyer une demande avec tous les détails, le lieu. En ce moment <img src="assets/img/sos/sos.png" style="width: 50px!important;display: inline-block!important;margin-top: -5px!important;"
+                                class='soskhedma-logo'> envoie votre demande aux fournisseurs de services concerner près de vous. Les fournisseurs de services disponibles vous répondent à titre d'approbation préliminaire pour fournir le service et mentionner
+                            le coût. En ce moment, vous pouvez accepter l'offre ou refuser selon ce qui vous convient mieux en termes de prix et d'évaluations des prestataires de services. Après acceptation, <img src='assets/img/sos/sos.png' style='width: 50px!important;display: inline-block!important;margin-top: -5px!important;'
+                                class='soskhedma-logo'> vous offre la possibilité de communiquer avec le fournisseur de services par des messages priver et également de suivre votre demande directement.) Concernant les services quotidiens (Tels que la plomberie,
+                            la menuiserie, la peinture, le jardinage et plusieurs autres spécialités). Il suffit de cliquer sur le service requis, d'écrire les détails de votre demande et envoyer. Ensuite, attendre les réponses des prestataires de services.
+                            Choisissez le plus approprié, communiquez et finaliser l'accord avec lui dans une conversation directe à travers l'application pour assurer la qualité et les droits des deux parties. Concernant les services quotidiens (Tels
+                            que la plomberie, la menuiserie, la peinture, le jardinage et plusieurs autres spécialités). Il suffit de cliquer sur le service requis, d'écrire les détails de votre demande et envoyer. Ensuite, attendre les réponses des prestataires
+                            de services. Choisissez le plus approprié, communiquez et finaliser l'accord avec lui dans une conversation directe à travers l'application pour assurer la qualité et les droits des deux parties.
 
 
                     </div>
                 </div>
 
-
+                <div class="col-lg-6 my-element">
+                    <div class="about-image ">
+                        <img src="assets/img/sos/4.png" alt="image">
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="default-shape">
-        <div class="shape-1">
-            <img src="assets/img/shape/1.png" alt="image">
+        <div class="default-shape">
+            <div class="shape-1">
+                <img src="assets/img/shape/1.png" alt="image">
+            </div>
+
+            <div class="shape-2 rotateme">
+                <img src="assets/img/shape/2.png" alt="image">
+            </div>
+
+            <div class="shape-3">
+                <img src="assets/img/shape/3.svg" alt="image">
+            </div>
+
+            <div class="shape-4">
+                <img src="assets/img/shape/4.svg" alt="image">
+            </div>
+
+            <div class="shape-5">
+                <img src="assets/img/shape/5.png" alt="image">
+            </div>
+        </div>
+    </section>
+    <!-- End About Area -->
+    <!-- Start About Area -->
+    <section id="about1" class="about-area  overview-area">
+        <div class="container">
+            <div class="section-title about">
+
+
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-image">
+                            <img src="assets/img/sos/5.png" alt="image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content section-title about droid-arabic-kufi">
+                            <h4 class=" droid-arabic-kufi" key="item2">Explication Pour Les Prestataires De Services</h4>
+                            <div class="bar"></div>
+                            <p></p>
+                            <p class="droid-arabic-kufi" key="text2">L'application <img src='assets/img/sos/sos.png' style='width: 60px!important;display: inline-block!important;margin-top: 8px!important;' class='soskhedma-logo'> offre aux entreprises et aux travailleurs indépendants la possibilité
+                                d'étendre leurs activités et leurs rendements financiers, cela avec sa système moderne de présentation et de communication avec les clients demandeurs de services. Une fois que le client (le demandeur) envoi sa demande,
+                                <img src='assets/img/sos/sos.png' style='width: 60px!important;display: inline-block!important;margin-top: 8px!important;' class='soskhedma-logo'>envoie une alerte qui inclut le sujet de la demande aux parties concernées
+                                des prestataires de services, selon son domaine de travail, sa localisation et sa proximité avec le client. Le prestataire de services peut répondre aux demandes et détermine le prix du service et le temp de disponibilité
+                                pour effectuer la mission. Avec tout liberté et sans aucunes conditions ni restrictions. Après l'acceptation du client (le demandeur), <img src='assets/img/sos/sos.png' style='width: 60px!important;display: inline-block!important;margin-top: 8px!important;'
+                                    class='soskhedma-logo'>vous permet de communiquer avec lui à travers la messagerie disponible pour finaliser l'accord et de garantir les droits des deux parties. </p>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="default-shape">
+                <div class="shape-1">
+                    <img src="assets/img/shape/1.png" alt="image">
+                </div>
+
+                <div class="shape-2 rotateme">
+                    <img src="assets/img/shape/2.png" alt="image">
+                </div>
+
+                <div class="shape-3">
+                    <img src="assets/img/shape/3.svg" alt="image">
+                </div>
+
+                <div class="shape-4">
+                    <img src="assets/img/shape/4.svg" alt="image">
+                </div>
+
+                <div class="shape-5">
+                    <img src="assets/img/shape/5.png" alt="image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about3" class="features-area    ptb-60">
+
+
+        <div class="default-shape">
+            <div class="shape-1">
+                <img src="assets/img/shape/1.png" alt="image">
+            </div>
+
+            <div class="shape-2 rotateme">
+                <img src="assets/img/shape/2.png" alt="image">
+            </div>
+
+            <div class="shape-3">
+                <img src="assets/img/shape/3.svg" alt="image">
+            </div>
+
+            <div class="shape-4">
+                <img src="assets/img/shape/4.svg" alt="image">
+            </div>
+
+            <div class="shape-5">
+                <img src="assets/img/shape/5.png" alt="image">
+            </div>
+        </div>
+        <div class="container">
+            <div class=" about">
+
+
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="about-content  about droid-arabic-kufi">
+                            <h4 class="droid-arabic-kufi" key="item4">L'application Offrira De Nombreuses Opportunités D'emploi Dans De Nombreux Domaines Et Contribuera Ainsi À Réduire Le Taux De Chômage.</h5>
+                                <h5 class="droid-arabic-kufi" key="text4">
+                            </h4>
+                            </p>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
         </div>
 
-        <div class="shape-2 rotateme">
-            <img src="assets/img/shape/2.png" alt="image">
+        <div class="default-shape">
+            <div class="shape-1">
+                <img src="assets/img/shape/1.png" alt="image">
+            </div>
+
+            <div class="shape-2 rotateme">
+                <img src="assets/img/shape/2.png" alt="image">
+            </div>
+
+            <div class="shape-3">
+                <img src="assets/img/shape/3.svg" alt="image">
+            </div>
+
+            <div class="shape-4">
+                <img src="assets/img/shape/4.svg" alt="image">
+            </div>
+
+            <div class="shape-5">
+                <img src="assets/img/shape/5.png" alt="image">
+            </div>
         </div>
 
-        <div class="shape-3">
-            <img src="assets/img/shape/3.svg" alt="image">
-        </div>
 
-        <div class="shape-4">
-            <img src="assets/img/shape/4.svg" alt="image">
-        </div>
-
-        <div class="shape-5">
-            <img src="assets/img/shape/5.png" alt="image">
-        </div>
-    </div>
-
-
-</section>
-<!-- End About Area -->
-<!-- Start Features Area -->
-<!-- <section id="service" class="features-area pb-70" style="margin-top: 30px">
+    </section>
+    <!-- End About Area -->
+    <!-- Start Features Area -->
+    <!-- <section id="service" class="features-area pb-70" style="margin-top: 30px">
     <div class="container">
         <div class="section-title service">
             <h2 class="droid-arabic-kufi" key="title">Services de l'application</h2>
@@ -661,431 +651,551 @@
     </div>
 </section> -->
 
-      
 
-        <section id="utilisation" class="faq-area ptb-100">
-            <div class="container">
-                <div class="section-title using">
-                    <h2 class="droid-arabic-kufi" key="title">Mode d'utilisation</h2>
-                    <div class="bar"></div>
-                    <p class="droid-arabic-kufi text_center" key="text">Après l'inscription et l'activation du compte, vous pouvez commencer à utiliser l'application en suivant ces étapes :</p>
-                </div>
 
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="faq-accordion-content">
-                            <ul class="accordion" style="padding: 0;">
-                                <li class="accordion-item using">
-                                    <a class="accordion-title active using " href="javascript:void(0)">
-                                        <i class="fa fa-chevron-down"></i>
-                                       <span class="droid-arabic-kufi" key="item1"> Envoyez votre demande gratuitement</span>
-                                    </a>
-        
-                                    <p class="accordion-content show droid-arabic-kufi"  key="text1">Commander ce que vous voulez où vous voulez, réparation du meuble, du lumières, l'électroménager, envoie d'un colis, etc...</p>
-                                </li>
-                                
-                                <li class="accordion-item using">
-                                    <a class="accordion-title using" href="javascript:void(0)">
-                                        <i class="fa fa-chevron-down"></i>
-                                        <span class="droid-arabic-kufi"  key="item2">Recevoir des suggestions</span>
-                                    </a>
-        
-                                    <p class="accordion-content droid-arabic-kufi"   key="text2">Du professionnel, du particulier ou d'entreprises..</p>
-                                </li>
-                                
-                                <li class="accordion-item using">
-                                    <a class="accordion-title using" href="javascript:void(0)">
-                                        <i class="fa fa-chevron-down"></i>
-                                        <span  class="droid-arabic-kufi" key="item3">Choisissez celui qui vous convient</span>
-                                    </a>
-        
-                                    <p class="accordion-content droid-arabic-kufi"  key="text3">Consultez les avis précédents, puis choisissez le meilleur. Avec le système de chat suggérés par <img src='assets/img/sos/sos.png' style='width: 50px!important;display: inline-block!important;margin-top: 8px!important;' class='soskhedma-logo' > finaliser l'accord avec le prestataire de service sélectionner.</p>
-                                </li>
-                                <li class="accordion-item using">
-                                    <a class="accordion-title using" href="javascript:void(0)">
-                                        <i class="fa fa-chevron-down"></i>
-                                        <span  class="droid-arabic-kufi"   key="item5">Partage d’expériences</span>
-                                    </a>
-                                    <p class="accordion-content droid-arabic-kufi"  key="text5">Une fois la mission terminée, évaluez le fournisseur de services et informez les autres utilisateurs de sa qualité de travail.</p>
-                                </li>
-                                
-                                <li class="accordion-item using">
-                                    <a class="accordion-title using" href="javascript:void(0)">
-                                        <i class="fa fa-chevron-down"></i>
-                                        <span  class="droid-arabic-kufi"   key="item4">Partage d’expériences</span>
-                                    </a>
-                                    <p class="accordion-content droid-arabic-kufi"  key="text4">Une fois la mission terminée, évaluez le fournisseur de services et informez les autres utilisateurs de sa qualité de travail.</p>
-                                </li>
-                                
+    <section id="utilisation" class="faq-area ptb-100">
+        <div class="container">
+            <div class="section-title using">
+                <h2 class="droid-arabic-kufi" key="title">Mode d'utilisation</h2>
+                <div class="bar"></div>
+                <p class="droid-arabic-kufi text_center" key="text">Après l'inscription et l'activation du compte, vous pouvez commencer à utiliser l'application en suivant ces étapes :</p>
+            </div>
 
-                            </ul>
-                        </div>
-                    </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="faq-accordion-content">
+                        <ul class="accordion" style="padding: 0;">
+                            <li class="accordion-item using">
+                                <a class="accordion-title active using " href="javascript:void(0)">
+                                    <i class="fa fa-chevron-down"></i>
+                                    <span class="droid-arabic-kufi" key="item1"> Envoyez votre demande gratuitement</span>
+                                </a>
 
-                    <div class="col-lg-6">
-                        <div class="faq-image">
-                            <img src="assets/img/sos/2.png" alt="image">
-                        </div>
+                                <p class="accordion-content show droid-arabic-kufi" key="text1">Commander ce que vous voulez où vous voulez, réparation du meuble, du lumières, l'électroménager, envoie d'un colis, etc...</p>
+                            </li>
+
+                            <li class="accordion-item using">
+                                <a class="accordion-title using" href="javascript:void(0)">
+                                    <i class="fa fa-chevron-down"></i>
+                                    <span class="droid-arabic-kufi" key="item2">Recevoir des suggestions</span>
+                                </a>
+
+                                <p class="accordion-content droid-arabic-kufi" key="text2">Du professionnel, du particulier ou d'entreprises..</p>
+                            </li>
+
+                            <li class="accordion-item using">
+                                <a class="accordion-title using" href="javascript:void(0)">
+                                    <i class="fa fa-chevron-down"></i>
+                                    <span class="droid-arabic-kufi" key="item3">Choisissez celui qui vous convient</span>
+                                </a>
+
+                                <p class="accordion-content droid-arabic-kufi" key="text3">Consultez les avis précédents, puis choisissez le meilleur. Avec le système de chat suggérés par <img src='assets/img/sos/sos.png' style='width: 50px!important;display: inline-block!important;margin-top: 8px!important;'
+                                        class='soskhedma-logo'> finaliser l'accord avec le prestataire de service sélectionner.</p>
+                            </li>
+                            <li class="accordion-item using">
+                                <a class="accordion-title using" href="javascript:void(0)">
+                                    <i class="fa fa-chevron-down"></i>
+                                    <span class="droid-arabic-kufi" key="item5">Partage d’expériences</span>
+                                </a>
+                                <p class="accordion-content droid-arabic-kufi" key="text5">Une fois la mission terminée, évaluez le fournisseur de services et informez les autres utilisateurs de sa qualité de travail.</p>
+                            </li>
+
+                            <li class="accordion-item using">
+                                <a class="accordion-title using" href="javascript:void(0)">
+                                    <i class="fa fa-chevron-down"></i>
+                                    <span class="droid-arabic-kufi" key="item4">Partage d’expériences</span>
+                                </a>
+                                <p class="accordion-content droid-arabic-kufi" key="text4">Une fois la mission terminée, évaluez le fournisseur de services et informez les autres utilisateurs de sa qualité de travail.</p>
+                            </li>
+
+
+                        </ul>
                     </div>
                 </div>
-            </div>
 
-            <div class="default-shape">
-                <div class="shape-1">
-                    <img src="assets/img/shape/1.png" alt="image">
+                <div class="col-lg-6">
+                    <div class="faq-image">
+                        <img src="assets/img/sos/2.png" alt="image">
+                    </div>
                 </div>
-
-                <div class="shape-2 rotateme">
-                    <img src="assets/img/shape/2.png" alt="image">
-                </div>
-
-                <div class="shape-3">
-                    <img src="assets/img/shape/3.svg" alt="image">
-                </div>
-
-                <div class="shape-4">
-                    <img src="assets/img/shape/4.svg" alt="image">
-                </div>
-
-                <div class="shape-5">
-                    <img src="assets/img/shape/5.png" alt="image">
-                </div>
-            </div>
-        </section>
-    
-<section class="app-download ptb-100" id="telechargement">
-    <div class="container">
-        <div class="app-download-content downloading ">
-            <h3 class="droid-arabic-kufi" key="title">Télécharger l’application
-            </h3>
-            <div class="bar"></div>
-            <p class="droid-arabic-kufi" key="text">Télécharger Notre application sur Google Play , App Store ou App
-                Gallery
-            </p>
-            <div class="app-holder">
-        
-                <a href="https://play.google.com/store/apps/details?id=tn.soskhedma.soskhedma">
-                    <img src="images/google.png" alt="image" width="150px">
-                </a>
-            
-
             </div>
         </div>
-    </div>
- 
-</section>
-<!-- End App Download Area -->
-<!-- Start Contact Area -->
-<section id="contact" class="contact-area" style="margin-top: 30px;margin-bottom: 30px">
-    <div class="container">
-        <div class="section-title supports">
-            <h2 class="droid-arabic-kufi" key="title">Contact</h2>
-            <div class="bar"></div>
-            <p class="droid-arabic-kufi text_center" key="subtext">La première plate-forme de livraison électronique pour tous les
-                services quotidiens, disponible partout en Tunisie
-            </p>
+
+        <div class="default-shape">
+            <div class="shape-1">
+                <img src="assets/img/shape/1.png" alt="image">
+            </div>
+
+            <div class="shape-2 rotateme">
+                <img src="assets/img/shape/2.png" alt="image">
+            </div>
+
+            <div class="shape-3">
+                <img src="assets/img/shape/3.svg" alt="image">
+            </div>
+
+            <div class="shape-4">
+                <img src="assets/img/shape/4.svg" alt="image">
+            </div>
+
+            <div class="shape-5">
+                <img src="assets/img/shape/5.png" alt="image">
+            </div>
+        </div>
+    </section>
+
+    <section class="app-download ptb-100" id="telechargement">
+        <div class="container">
+            <div class="app-download-content downloading ">
+                <h3 class="droid-arabic-kufi" key="title">Télécharger l’application
+                </h3>
+                <div class="bar"></div>
+                <p class="droid-arabic-kufi" key="text">Télécharger Notre application sur Google Play , App Store ou App Gallery
+                </p>
+                <div class="app-holder">
+
+                    <a href="https://play.google.com/store/apps/details?id=tn.soskhedma.soskhedma">
+                        <img src="images/google.png" alt="image" width="150px">
+                    </a>
+
+
+                </div>
+            </div>
         </div>
 
+    </section>
+    <!-- End App Download Area -->
+
+    <section id="signup-part" class="about-area pb-100">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="droid-arabic-kufi" key="title">Créer un <b>Compte</b></h2>
+                <div class="bar"></div>
+                <p class="droid-arabic-kufi text_center" key="text">
+                    Pour avoir un compte, il faut remplir ce formulaire et l'envoyé en cliquant sur le boutton "registre"
+                </p>
+            </div>
+        </div>
         <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="contact-form droid-arabic-kufi">
-                    <form id="contactForm">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group cont">
-                                    <input type="text" name="name" id="name" class="form-control" required
-                                       error="error1"    data-error="Please enter your name" hint="name" placeholder="Your Name">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
+            <div class="container">
+                <form id="signupForm" class="row" name="signupForm">
+                    <div class="col-sm-12 col-md-6 form-group cont login-form-input">
+                        <input type="text" name="email" id="email" class="form-control" placeholder="Votre email" />
+                        <div class="help-block with-errors"></div>
+                        <div class="error" id="already-exist">Email déja existe, veuillez saisir un autre email</div>
 
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group cont">
-                                    <input type="email" name="email" id="email" class="form-control" required
-                                    hint="email"    data-error="Please enter your email" placeholder="Your Email"
-                                    error="error2">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 form-group cont login-form-input">
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Votre nom" />
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 form-group cont login-form-input">
+                        <input type="password" name="password" id="password" class="form-control" placeholder="Votre mot de passe" />
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 form-group cont login-form-input">
+                        <input type="password" id="password_again" name="password_again" id="password_again" class="form-control" placeholder="Votre mot de passe" />
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 form-group cont login-form-input display-flex">
+                        <label class="checkbox-label">êtes-vous un travailleur?</label>
+                        <input type="checkbox" id="isWorker" checked data-toggle="toggle" data-onstyle="warning" data-offstyle="info" data-on="Oui" data-off="Non" />
+                    </div>
+                    <div id="workerForm" style="width: 100%;">
+                        <div class="col-sm-12 col-md-6 form-group cont login-form-input">
+                            <select class="form-control" id="job" name="job">
+                  <option value="">Selectionner votre profession</option>
+                  <option value="1">option 1</option>
+                  <option value="2">option 2</option>
+                  <option value="3">option 3</option>
+                </select>
+                        </div>
+                        <div class="col-sm-12 col-md-6 form-group cont login-form-input">
+                            <select class="form-control" id="governorate" name="governorate">
+                  <option value="">Selectionner votre gouvernorat</option>
+                  <option value="1">option 1</option>
+                  <option value="2">option 2</option>
+                  <option value="3">option 3</option>
+                </select>
+                        </div>
+                        <div class="col-sm-12 col-md-6 form-group cont login-form-input">
+                            <select class="form-control" id="municipality" name="municipality">
+                  <option value="">Selectionner votre municipalité</option>
+                  <option value="1">option 1</option>
+                  <option value="2">option 2</option>
+                  <option value="3">option 3</option>
+                </select>
+                        </div>
+                        <div class="col-sm-12 col-md-6 form-group cont login-form-input">
+                            <input type="number" name="phone" id="phone" class="form-control" placeholder="Vote numéro de téléphone " />
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 register-div ">
+                        <button type="submit" class="btn btn-primary register-btn">
+                            <i class="fa fa-spinner fa-spin" style="font-size:20px"></i>
+                        register
+              </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Start Contact Area -->
+    <section id="contact" class="contact-area" style="margin-top: 30px;margin-bottom: 30px">
+        <div class="container">
+            <div class="section-title supports">
+                <h2 class="droid-arabic-kufi" key="title">Contact</h2>
+                <div class="bar"></div>
+                <p class="droid-arabic-kufi text_center" key="subtext">La première plate-forme de livraison électronique pour tous les services quotidiens, disponible partout en Tunisie
+                </p>
+            </div>
 
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group cont">
-                                    <input type="text" name="phone_number" id="phone_number" required
-                                           data-error="Please enter your number" class="form-control" error="error3"
-                                           hint="phone"
-                                           placeholder="Your Phone">
-                                    <div class="help-block with-errors"></div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="contact-form droid-arabic-kufi">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group cont">
+                                        <input type="text" name="name" id="name" class="form-control" required error="error1" data-error="Please enter your name" hint="name" placeholder="Your Name">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group cont">
-                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" required
-                                           data-error="Please enter your subject" hint="sub" placeholder="Your Subject"
-                                           error="error4">
-                                    <div class="help-block with-errors"></div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group cont">
+                                        <input type="email" name="email" id="email" class="form-control" required hint="email" data-error="Please enter your email" placeholder="Your Email" error="error2">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-lg-12 col-md-12">
-                                <div class="form-group cont">
-                                    <textarea name="message" class="form-control" id="message" cols="30" rows="6"
-                                              required data-error="Write your message" hint="message" error="error5"
-                                              placeholder="Your Message"></textarea>
-                                    <div class="help-block with-errors"></div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group cont">
+                                        <input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" error="error3" hint="phone" placeholder="Your Phone">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-lg-12 col-md-12">
-                                <div class="send-btn cont">
-                                    <button type="submit" class="default-btn" key="btn">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group cont">
+                                        <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" hint="sub" placeholder="Your Subject" error="error4">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group cont">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="6" required data-error="Write your message" hint="message" error="error5" placeholder="Your Message"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="send-btn cont">
+                                        <button type="submit" class="default-btn" key="btn">
                                         Send Message
                                         <span></span>
                                     </button>
-                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                    <div class="clearfix"></div>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        <div class="clearfix"></div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-lg-6">
-                <div class="contact-info">
-                    <div class="contact-info-content supports">
-                        <h3 class="droid-arabic-kufi" key="text">Contactez-nous par votre numéro de téléphone ou adresse
-                            e-mail </h3>
-                        <h2>
-                            <a href="tel:+216070070" style="direction:ltr">+216 24 960 460</a>
-                            <span></span>
-                            <a href="mailto:contact@soskhedma.tn">contact@soskhedma.tn</a>
-                        </h2>
-                        <ul class="social">
-                        
-                            <li>
-                                <a href="https://www.facebook.com/soskhedma/" target="_blank">
-                                    <i class="fab fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/soskhedma.officiel/" target="_blank">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </li>
-                            
-                        </ul>
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <div class="contact-info-content supports">
+                            <h3 class="droid-arabic-kufi" key="text">Contactez-nous par votre numéro de téléphone ou adresse e-mail </h3>
+                            <h2>
+                                <a href="tel:+216070070" style="direction:ltr">+216 24 960 460</a>
+                                <span></span>
+                                <a href="mailto:contact@soskhedma.tn">contact@soskhedma.tn</a>
+                            </h2>
+                            <ul class="social">
 
+                                <li>
+                                    <a href="https://www.facebook.com/soskhedma/" target="_blank">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/soskhedma.officiel/" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="default-shape">
+            <div class="shape-1">
+                <img src="assets/img/shape/1.png" alt="image">
+            </div>
+
+            <div class="shape-2 rotateme">
+                <img src="assets/img/shape/2.png" alt="image">
+            </div>
+
+            <div class="shape-3">
+                <img src="assets/img/shape/3.svg" alt="image">
+            </div>
+
+            <div class="shape-4">
+                <img src="assets/img/shape/4.svg" alt="image">
+            </div>
+
+            <div class="shape-5">
+                <img src="assets/img/shape/5.png" alt="image">
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Area -->
+
+    <!-- Start Subscribe Area -->
+
+    <!-- End Subscribe Area -->
+
+
+    <!-- Start Copy Right Area -->
+    <div class="copy-right" style="direction: ltr;">
+        <div class="container">
+            <div class="copy-right-content">
+                <p>
+                    Copyright &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                    All rights reserved by
+                    <a href="#" target="_blank"><img src="assets/img/sos/sos.png" width="60"></a>
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End Copy Right Area -->
+
+    <!-- Start Go Top Section -->
+    <div class="go-top">
+        <i class="fa fa-chevron-up"></i>
+        <i class="fa fa-chevron-up"></i>
     </div>
 
-    <div class="default-shape">
-        <div class="shape-1">
-            <img src="assets/img/shape/1.png" alt="image">
-        </div>
-
-        <div class="shape-2 rotateme">
-            <img src="assets/img/shape/2.png" alt="image">
-        </div>
-
-        <div class="shape-3">
-            <img src="assets/img/shape/3.svg" alt="image">
-        </div>
-
-        <div class="shape-4">
-            <img src="assets/img/shape/4.svg" alt="image">
-        </div>
-
-        <div class="shape-5">
-            <img src="assets/img/shape/5.png" alt="image">
+    <!-- End Go Top Section -->
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="logo logo-modal">
+                        <a>
+                            <h3><img src="assets/img/app_logo2.svg"></h3>
+                        </a>
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body login-form">
+                    <form id="loginForm" name="loginForm">
+                        <div class="form-group cont login-form-input">
+                            <input type="email" name="mail" id="mail" class="form-control" required error="error6" data-error="veuillez votre email" hint="email" placeholder="Votre email">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group cont login-form-input">
+                            <input type="password" name="password-login" id="password-login" class="form-control" required error="error6" data-error="veuillez votre mot de passe" hint="password" placeholder="Votre mot de passe">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="alert alert-danger" role="alert" id="authentication-error">
+                            veuillez entrer un email et un mot de passe correcte
+                          </div>
+                        <div class="form-group cont login-form-input">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"> Mémoriser l'info</label><br>
+                        </div>
+                        <button type="submit" class="btn btn-primary login-btn"><i class="fa fa-spinner fa-spin" style="font-size:20px"></i> Se connecter</button>
+                        <div class="forget-password">
+                            <a>Oublier mot de passe ?</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer login-footer">
+                    <p>Première visite? </p>
+                    <a href="#signup-part">SIGN UP</a>
+                </div>
+            </div>
         </div>
     </div>
-</section>
-<!-- End Contact Area -->
+    <!-- jQuery Min JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- Popper Min JS -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Bootstrap Min JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel Min JS -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Appear JS -->
+    <script src="assets/js/jquery.appear.js"></script>
+    <!-- Odometer JS -->
+    <script src="assets/js/odometer.min.js"></script>
+    <!-- Slick JS -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Particles JS -->
+    <script src="assets/js/particles.min.js"></script>
+    <!-- Ripples JS -->
+    <script src="assets/js/jquery.ripples-min.js"></script>
+    <!-- Popup JS -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- WOW Min JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- AjaxChimp Min JS -->
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <!-- Form Validator Min JS -->
+    <script src="assets/js/form-validator.min.js"></script>
+    <!-- Contact Form Min JS -->
+    <script src="assets/js/contact-form-script.js"></script>
+    <!-- Contact Form Min JS -->
+    <script src="assets/js/login-form-script.js"></script>
+    
+    <script src="assets/js/jquery.validate.min.js"></script>
 
-<!-- Start Subscribe Area -->
+    <!-- Register Form Min JS -->
+    <script src="assets/js/register-form-script.js"></script>
 
-<!-- End Subscribe Area -->
- 
 
-<!-- Start Copy Right Area -->
-<div class="copy-right" style="direction: ltr;">
-    <div class="container">
-        <div class="copy-right-content">
-            <p>
-                Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                All rights reserved by <a href="#" target="_blank"><img src="assets/img/sos/sos.png" width="60"></a>
+    <!-- Main JS -->
+    <script src="assets/js/main3661.js?v=2.0"></script>
 
-            </p>
-        </div>
-    </div>
-</div>
-<!-- End Copy Right Area -->
+    <script src="jquery.MultiLanguage1e02.js?v=0.4"></script>
+    <script>
+        $(document).ready(function() {
 
-<!-- Start Go Top Section -->
-<div class="go-top">
-    <i class="fa fa-chevron-up"></i>
-    <i class="fa fa-chevron-up"></i>
-</div>
+            // By default
+            $('.fr_lang').addClass("active-lang");
+            $('#lang-switch .fr').addClass("active-flag");
 
-<!-- End Go Top Section -->
+            // Function switch
+            $(function() {
+                // French button
+                $("#lang-switch .fr").click(function() {
+                    // Enable French
+                    $('.fr_lang').addClass("active-lang");
 
-<!-- jQuery Min JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-<!-- Popper Min JS -->
-<script src="assets/js/popper.min.js"></script>
-<!-- Bootstrap Min JS -->
-<script src="assets/js/bootstrap.min.js"></script>
-<!-- Owl Carousel Min JS -->
-<script src="assets/js/owl.carousel.min.js"></script>
-<!-- Appear JS -->
-<script src="assets/js/jquery.appear.js"></script>
-<!-- Odometer JS -->
-<script src="assets/js/odometer.min.js"></script>
-<!-- Slick JS -->
-<script src="assets/js/slick.min.js"></script>
-<!-- Particles JS -->
-<script src="assets/js/particles.min.js"></script>
-<!-- Ripples JS -->
-<script src="assets/js/jquery.ripples-min.js"></script>
-<!-- Popup JS -->
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<!-- WOW Min JS -->
-<script src="assets/js/wow.min.js"></script>
-<!-- AjaxChimp Min JS -->
-<script src="assets/js/jquery.ajaxchimp.min.js"></script>
-<!-- Form Validator Min JS -->
-<script src="assets/js/form-validator.min.js"></script>
-<!-- Contact Form Min JS -->
-<script src="assets/js/contact-form-script.js"></script>
-<!-- Main JS -->
-<script src="assets/js/main3661.js?v=2.0"></script>
+                    // Disable English
+                    $('.en_lang').removeClass("active-lang")
 
-<script src="jquery.MultiLanguage1e02.js?v=0.4"></script>
-<script>
-    $(document).ready(function () {
+                    // Active or remove the opacity on the flags.
+                    $('#lang-switch .fr').addClass("active-flag");
+                    $('#lang-switch .ar').removeClass("active-flag");
+                });
 
-        // By default
-        $('.fr_lang').addClass("active-lang");
-        $('#lang-switch .fr').addClass("active-flag");
+                // English button
+                $("#lang-switch .ar").click(function() {
 
-        // Function switch
-        $(function () {
-            // French button
-            $("#lang-switch .fr").click(function () {
-                // Enable French
-                $('.fr_lang').addClass("active-lang");
+                    // Enable English
+                    $('.en_lang').addClass("active-lang");
 
-                // Disable English
-                $('.en_lang').removeClass("active-lang")
+                    // Disable French
+                    $('.fr_lang').removeClass("active-lang");
 
-                // Active or remove the opacity on the flags.
-                $('#lang-switch .fr').addClass("active-flag");
-                $('#lang-switch .ar').removeClass("active-flag");
-            });
-
-            // English button
-            $("#lang-switch .ar").click(function () {
-
-                // Enable English
-                $('.en_lang').addClass("active-lang");
-
-                // Disable French
-                $('.fr_lang').removeClass("active-lang");
-
-                // Active or remove the opacity on the flags.
-                $('#lang-switch .ar').addClass("active-flag");
-                $('#lang-switch .fr').removeClass("active-flag");
+                    // Active or remove the opacity on the flags.
+                    $('#lang-switch .ar').addClass("active-flag");
+                    $('#lang-switch .fr').removeClass("active-flag");
+                });
             });
         });
-    });
-</script>
-<script>
-  /*  var i = 0;
-    var array = [document.getElementById("s1"), document.getElementById("s2"), document.getElementById("s3")];
-
-    setInterval(() => {
-        i++
-        if (i == array.length) {
-            i = 0;
-        }
-        array[i].checked = true;
-    }, 5000);
-   
-    var k = 0;
-    var arrayk = [document.getElementById("s11"), document.getElementById("s12"), document.getElementById("s13")
-    , document.getElementById("s14"), document.getElementById("s15"), document.getElementById("s16")];
-
-    setInterval(() => {
-        k++
-        if (k == arrayk.length) {
-            k = 0;
-        }
-        arrayk[k].checked = true;
-    }, 3000);
-     */
-    function next(){
-        $("#carouselExampleIndicators").carousel("prev");
-
-    }
-    function prev(){
-        $("#carouselExampleIndicators").carousel("next");
-
-    }
-    var useragent = navigator.userAgent; // cache the userAgent info
-var iPhone = (useragent.match(/(iPad|iPhone|iPod)/g));
-var isMobile = {
-    Android: function () {
-        return navigator.userAgent.match(/Android/i);
-    },
-    BlackBerry: function () {
-        return navigator.userAgent.match(/BlackBerry/i);
-    },
-    iOS: function () {
-        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-    },
-    Opera: function () {
-        return navigator.userAgent.match(/Opera Mini/i);
-    },
-    Windows: function () {
-        return navigator.userAgent.match(/IEMobile/i);
-    },
-    any: function () {
-        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-    }
-};
-
-    $('a.openapp').on('click', function (event) {
-    var scheme;
-    if (isMobile.any()) {
-        if (iPhone)
-      scheme = "fb://page/?id=" + $(this).data('id');
-    else
-      scheme = "fb://page/" + $(this).data('id');}
-else{
-    scheme = "https://facebook.com/pg/"+ $(this).data('id');
-}
-   
-    uriSchemeWithHyperlinkFallback(scheme, $(this).attr('href'));
-    event.preventDefault();
-  });
-
-  // Open page in app, else open page in browser 
-  function uriSchemeWithHyperlinkFallback(uri, href) {
-    if (!window.open(uri)) {
-      window.location = href;
-    }
-  }  
     </script>
-<!-- Load Facebook SDK for JavaScript -->
+    <script>
+        /*  var i = 0;
+                                                                                                                                                                                                                                                                                                    var array = [document.getElementById("s1"), document.getElementById("s2"), document.getElementById("s3")];
 
-   
+                                                                                                                                                                                                                                                                                                    setInterval(() => {
+                                                                                                                                                                                                                                                                                                        i++
+                                                                                                                                                                                                                                                                                                        if (i == array.length) {
+                                                                                                                                                                                                                                                                                                            i = 0;
+                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                        array[i].checked = true;
+                                                                                                                                                                                                                                                                                                    }, 5000);
+                                                                                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                                                    var k = 0;
+                                                                                                                                                                                                                                                                                                    var arrayk = [document.getElementById("s11"), document.getElementById("s12"), document.getElementById("s13")
+                                                                                                                                                                                                                                                                                                    , document.getElementById("s14"), document.getElementById("s15"), document.getElementById("s16")];
+
+                                                                                                                                                                                                                                                                                                    setInterval(() => {
+                                                                                                                                                                                                                                                                                                        k++
+                                                                                                                                                                                                                                                                                                        if (k == arrayk.length) {
+                                                                                                                                                                                                                                                                                                            k = 0;
+                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                        arrayk[k].checked = true;
+                                                                                                                                                                                                                                                                                                    }, 3000);
+                                                                                                                                                                                                                                                                                                     */
+        function next() {
+            $("#carouselExampleIndicators").carousel("prev");
+
+        }
+
+        function prev() {
+            $("#carouselExampleIndicators").carousel("next");
+
+        }
+        var useragent = navigator.userAgent; // cache the userAgent info
+        var iPhone = (useragent.match(/(iPad|iPhone|iPod)/g));
+        var isMobile = {
+            Android: function() {
+                return navigator.userAgent.match(/Android/i);
+            },
+            BlackBerry: function() {
+                return navigator.userAgent.match(/BlackBerry/i);
+            },
+            iOS: function() {
+                return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+            },
+            Opera: function() {
+                return navigator.userAgent.match(/Opera Mini/i);
+            },
+            Windows: function() {
+                return navigator.userAgent.match(/IEMobile/i);
+            },
+            any: function() {
+                return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+            }
+        };
+
+        $('a.openapp').on('click', function(event) {
+            var scheme;
+            if (isMobile.any()) {
+                if (iPhone)
+                    scheme = "fb://page/?id=" + $(this).data('id');
+                else
+                    scheme = "fb://page/" + $(this).data('id');
+            } else {
+                scheme = "https://facebook.com/pg/" + $(this).data('id');
+            }
+
+            uriSchemeWithHyperlinkFallback(scheme, $(this).attr('href'));
+            event.preventDefault();
+        });
+
+        // Open page in app, else open page in browser 
+        function uriSchemeWithHyperlinkFallback(uri, href) {
+            if (!window.open(uri)) {
+                window.location = href;
+            }
+        }
+    </script>
+    <!-- Load Facebook SDK for JavaScript -->
+
+
 </body>
 
 
 <!-- Mirrored from www.soskhedma.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Jul 2020 22:05:22 GMT -->
+
 </html>
